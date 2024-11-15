@@ -1,0 +1,28 @@
+h1 {
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+@font-face {
+    font-family: "impact";
+    src: url(../impact/impact.ttf);
+}
+
+@font-face {
+    font-family: "times";
+    src: url(../Times-New-Roman/Times\ New\ Roman/.ttf)
+}
+/* button {
+    transition: all 1s 1s;
+} */
+.btn {
+    transition: all .5s;
+}
+.btn-primary {
+    --bs-btn-hover-bg: navy;
+}
